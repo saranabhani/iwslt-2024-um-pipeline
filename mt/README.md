@@ -22,6 +22,7 @@ Replace the placeholders with the relevant values:
 
 ### Evaluation
 To evaluate the model and generate translations, use the prediction script:
+
 `python predict.py --model <model_path> --dataset <dataset_path> --input_col <input_column> --output_col <output_column> --save_path <save_predictions_path> --score`
 
 - `<model_path>`: Path to your trained model.
